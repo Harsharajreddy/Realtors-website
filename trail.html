@@ -1,0 +1,86 @@
+<script  defer src="jscode.js" ></script>
+<style>
+    td{
+        color: black;
+    }
+</style>
+<form>
+    <table class="center" style="color: rgb(255, 255, 255);">
+      <tr>
+        <td>
+          Name:
+        </td>
+        <td>
+          <input type="Name" id="fn" placeholder="Enter here">
+          <div id="fnameerror"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Email:
+        </td>
+        <td>
+          <input type="Name" name="Email">
+        </td>
+      </tr>
+          <tr>
+        <td>
+          Mobile Number:
+        </td>
+        <td>
+          <input type="Number" name="Mobile Number">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gender:
+        </td>
+        <td>
+          <input type="radio" name="Sex" value="Male">Male<input type="radio" name="Sex">Female<input type="radio" name="Sex">Prefer not to say
+        </td>
+      </tr>
+          <tr>
+        <td>
+          Date Of appointment:
+        </td>
+        <td>
+          <input type="Date" name="Date Of appointment">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Service Required
+        </td>
+        <td>
+          <select>
+            <option value="select">-Select-</option>
+            <option value="buy a house">Buy a house</option>
+            <option value="sell a house">Sell a house</option>
+            <option value="mortgage">Mortgage</option>
+          </select>
+        </td>
+      </tr>
+        <tr>
+          <td>
+            Language Preferred:
+          </td>
+        <td>
+          <input type="radio" name="English" value="English">English
+          <input type="radio" name="Spanish" value="Spanish">Spanish
+          <input type="radio" name="Hindi" value="Hindi">Hindi
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Address:
+        </td>
+        <td>
+          <textarea cols="30" rows="6"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+        <input type="submit" id="btn" value="submit">
+      </tr>
+    </table>
+  </form>
